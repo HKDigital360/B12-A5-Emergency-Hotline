@@ -16,7 +16,7 @@
         <nav class="pr-15 pl-15 pt-2 pb-2">
     <div class="flex place-content-between">
 <div class="flex justify-center items-center gap-2">
-    <img class="w-12 h-12" src="./assets/logo.png" alt=""> 
+    <img id="logo" class="w-12 h-12" src="./assets/logo.png" alt=""> 
     <h1 class="text-green-700 font-bold text-xl">Emergency <br> Service</h1>
 </div>
 
@@ -31,8 +31,9 @@
 
 <div class="flex justify-center p-1  ">
     <!-- <h class="text-2xl font-bold">0</h1> -->
-    <button class="btn border-2 border-gray-300 bg-[41ff6b1a] text-black text-lg font-bold rounded-3xl">0
-        <img src="./assets/heart.png" class="w-[30px] h-[30px]"alt="">
+    <button class="btn border-2 border-gray-300 bg-[41ff6b1a] text-black text-lg font-bold rounded-3xl"> <h2 id="red-heart-number">0</h2>
+     <div><img src="./assets/heart.png" class="w-[30px] h-[30px]"alt="">
+        </div>
     </button>
    
 </div>
@@ -91,7 +92,9 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/emergency.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <div >
+                <i  id="btn-nation-blank-heart" class="fa-regular fa-heart"></i>
+                </div>
             </div>
             
             <div>
@@ -114,7 +117,9 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/police.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <div>
+                <i id="btn-police-blank-heart" class="fa-regular fa-heart"></i>
+                </div>
             </div>
             
             <div>
@@ -127,7 +132,7 @@
 </div>
 <div class="flex gap-3">
    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button id="btn-call" class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i  class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -138,7 +143,7 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/fire-service.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <div><i id="btn-blank-heart" class="fa-regular fa-heart"></i></div>
             </div>
             
             <div>
@@ -162,7 +167,9 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/ambulance.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i id="btn-blank-heart" class="fa-regular fa-heart"></i>
+                </div>
             </div>
             
             <div>
@@ -186,7 +193,9 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/emergency.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i id="btn-blank-heart" class="fa-regular fa-heart"></i>
+                </div>
             </div>
             
             <div>
@@ -210,7 +219,7 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/emergency.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i id="btn-blank-heart" class="fa-regular fa-heart"></i>
             </div>
             
             <div>
@@ -234,7 +243,7 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/emergency.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i id="btn-blank-heart" class="fa-regular fa-heart"></i>
             </div>
             
             <div>
@@ -258,7 +267,7 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/brac.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i id="btn-blank-heart"  class="fa-regular fa-heart"></i>
             </div>
             
             <div>
@@ -282,7 +291,7 @@
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/Bangladesh-Railway.png" alt="">
                 </div>
-                <i class="fa-regular fa-heart"></i>
+                <i id="btn-blank-heart" class="fa-regular fa-heart"></i>
             </div>
             
             <div>
@@ -370,6 +379,6 @@
 </div>
 </div>
     
-
+<script src="./index.js"></script>
 </body>
 </html>
