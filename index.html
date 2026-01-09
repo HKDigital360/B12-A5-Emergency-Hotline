@@ -11,10 +11,10 @@
 <!-- font awesome cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
-        <nav class="pr-15 pl-15 pt-2 pb-2">
-    <div class="flex place-content-between">
+<body class=" ">
+    <header class="">
+        <nav class=" pr-15 pl-15 pt-2 pb-2">
+    <div class="flex flex-col sm:flex-row justify-between ">
 <div class="flex justify-center items-center gap-2">
     <img id="logo" class="w-12 h-12" src="./assets/logo.png" alt=""> 
     <h1 class="text-green-700 font-bold text-xl">Emergency <br> Service</h1>
@@ -44,7 +44,7 @@
 </div> -->
 <div class="flex justify-center p-1  ">
     <!-- <h class="text-2xl font-bold">0</h1> -->
-    <button class="btn border-2 border-gray-300 bg-[41ff6b1a] text-black text-lg font-bold rounded-3xl">100
+    <button class="btn border-2 border-gray-300 bg-[41ff6b1a] text-black text-lg font-bold rounded-3xl"><h2 id="btn-100-cions">100</h2>
         <img src="./assets/coin.png" class="w-[30px] h-[30px]"alt="">
     </button>
    
@@ -66,12 +66,12 @@
     </nav>
     </header>
 
-    <div class="mx-auto h-[200px] bg-[linear-gradient(90deg,#013223,#006747_50%,#013223_100%)] text-center justify-center p-6">
+    <div class="mx-auto h-[200px] sm:h-auto bg-[linear-gradient(90deg,#013223,#006747_50%,#013223_100%)] text-center justify-center p-4 sm:p-6">
         <!-- <div class=""> -->
             <img class="w-12 h-12 mx-auto" src="/assets/logo-dark.png" alt="">
             
-            <h1 class="text-white text-[40px] font-Hind Madurai font-bold">Emergency Service Directory</h1>
-            <p class="text-white text-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            <h1 class="text-white text-[20px] sm:text-[40px] sm:py-10 font-Hind Madurai font-bold">Emergency Service Directory</h1>
+            <p class="text-white sm:text-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
         <!-- </div> -->
 
     </div>
@@ -82,9 +82,9 @@
 
     <div class="mx-auto  bg-[#f5fff6]  border-2 border-red-700">
 
-<div class="flex">
+<div class=" flex flex-col sm:flex-row ">
 <div class="w-3/4">
-        <div class="gap-6 grid grid-cols-3 p-7 ">
+        <div class="gap-6 grid sm:grid-cols-3 p-7">
 
             <div class="flex bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]  flex-col border-2 p-6 border-gray-400 rounded-xl w-[430px] h-[360px] place-content-between ">
 
@@ -99,7 +99,7 @@
             
             <div>
             <h2 class="text-2xl font-bold">National Emergency Number</h2>
-            <p>National Emergency</p>
+            <p class="emergency">National Emergency</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
@@ -107,7 +107,7 @@
 </div>
 <div class="flex gap-3">
     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -124,7 +124,7 @@
             
             <div>
             <h2 class="text-2xl font-bold">Police Helpline Number</h2>
-            <p>Police</p>
+            <p class="emergency">Police</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
@@ -132,7 +132,7 @@
 </div>
 <div class="flex gap-3">
    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button id="btn-call" class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i  class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i  class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -148,7 +148,7 @@
             
             <div>
             <h2 class="text-2xl font-bold">Fire Service Number</h2>
-            <p>Fire Service</p>
+            <p class="emergency">Fire Service</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
@@ -156,7 +156,7 @@
 </div>
 <div class="flex gap-3">
     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -182,7 +182,7 @@
 </div>
 <div class="flex gap-3">
    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -208,7 +208,7 @@
 </div>
 <div class="flex gap-3">
     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -232,7 +232,7 @@
 </div>
 <div class="flex gap-3">
      <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600 hover:bg-green-400  w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400  w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -256,7 +256,7 @@
 </div>
 <div class="flex gap-3">
     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -280,7 +280,7 @@
 </div>
 <div class="flex gap-3">
      <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600 w-[180px] hover:bg-green-400 h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 w-[180px] hover:bg-green-400 h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -304,7 +304,7 @@
 </div>
 <div class="flex gap-3">
     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -341,7 +341,8 @@
 </div>
 
 
-<div class="w-1/4">
+<div class="w-1/4 ">
+    <div class="">
 <div class="  bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]   border-2 mt-7 border-gray-400 rounded-xl w-[440px] h-[1130px]">
   
 <div class="flex justify-between items-center">
@@ -373,6 +374,12 @@
 </div>
 
 </div>
+
+
+
+</div>
+
+
 
 </div>
 
