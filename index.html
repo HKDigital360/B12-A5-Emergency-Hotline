@@ -13,8 +13,8 @@
 </head>
 <body class=" ">
     <header class="">
-        <nav class=" pr-15 pl-15 pt-2 pb-2">
-    <div class="flex flex-col sm:flex-row justify-between ">
+        <nav class=" px-8 py-2">
+    <div class="flex flex-col sm:flex-row justify-between items-center ">
 <div class="flex justify-center items-center gap-2">
     <img id="logo" class="w-12 h-12" src="./assets/logo.png" alt=""> 
     <h1 class="text-green-700 font-bold text-xl">Emergency <br> Service</h1>
@@ -83,35 +83,35 @@
     <div class="mx-auto  bg-[#f5fff6]  border-2 border-red-700">
 
 <div class=" flex flex-col sm:flex-row ">
-<div class="w-3/4">
-        <div class="gap-6 grid sm:grid-cols-3 p-7">
+<div class="w-full sm:w-3/4">
+        <div class="gap-6 grid grid-cols-1 sm:grid-cols-3 p-7">
 
-            <div class="flex bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]  flex-col border-2 p-6 border-gray-400 rounded-xl w-[430px] h-[360px] place-content-between ">
+            <div class="flex bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]  flex-col border-2 p-4 sm:p-6 border-gray-400 rounded-xl w-full sm:w-[430px] h-auto place-content-between ">
 
                 <div class="flex justify-between items-center ">
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
                 <img class="" src="./assets/emergency.png" alt="">
                 </div>
                 <div >
-                <i  id="btn-nation-blank-heart" class="fa-regular fa-heart"></i>
+                <i  id="btn-nation-blank-heart" class="fa-regular fa-heart "></i>
                 </div>
             </div>
             
             <div>
             <h2 class="text-2xl font-bold">National Emergency Number</h2>
-            <p class="emergency">National Emergency</p>
+            <p class="national-emergency">National Emergency</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
     <button class="btn text-gray-400 rounded-2xl">All</button>
 </div>
-<div class="flex gap-3">
-    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
- <div class="flex bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]  flex-col border-2 p-6 border-gray-400 rounded-xl w-[430px] h-[360px] place-content-between ">
+ <div class="flex bg-[#ffffff] shadow-[0px 2px 3px 0px rgba(0, 0, 0, 0.15)]  flex-col border-2 p-4 sm:p-6 border-gray-400 rounded-xl w-full sm:w-[430px] h-auto place-content-between ">
 
                 <div class="flex justify-between items-center ">
                     <div class="rounded-md bg-[#ffe3e2] h-[32px] w-[32px]">
@@ -124,15 +124,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Police Helpline Number</h2>
-            <p class="emergency">Police</p>
+            <p class="police-emergency">Police</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
     <button class="btn text-gray-400 rounded-2xl">Police</button>
 </div>
-<div class="flex gap-3">
-   <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i  class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -148,15 +149,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Fire Service Number</h2>
-            <p class="emergency">Fire Service</p>
+            <p class="fire-emergency">Fire Service</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">999</h1>
     <button class="btn text-gray-400 rounded-2xl">Fire</button>
 </div>
-<div class="flex gap-3">
-    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -174,15 +176,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Ambulance Service</h2>
-            <p>Ambulance</p>
+            <p class="ambulance-emergency">Ambulance</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">1994-999999</h1>
     <button class="btn text-gray-400 rounded-2xl">Health</button>
 </div>
-<div class="flex gap-3">
-   <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -200,15 +203,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Women & Child Helpline</h2>
-            <p>Women & Child Helpline</p>
+            <p class="women-emergency">Women & Child Helpline</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">106</h1>
     <button class="btn text-gray-400 rounded-2xl">Help.</button>
 </div>
-<div class="flex gap-3">
-    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600  hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -224,15 +228,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Anti-Corruption Helpline</h2>
-            <p>Anti-Corruption</p>
+            <p class="corruption-emergency">Anti-Corruption</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">106</h1>
     <button class="btn text-gray-400 rounded-2xl">Govt.</button>
 </div>
-<div class="flex gap-3">
-     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400  w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -248,15 +253,16 @@
             
             <div>
             <h2 class="text-2xl font-bold">Electrical Helpline</h2>
-            <p>Electricity Outrage</p>
+            <p class="electricity-emergency">Electricity Outrage</p>
         </div>
 <div>
     <h1 class="text-2xl font-bold">16246</h1>
     <button class="btn text-gray-400 rounded-2xl">Electricity</button>
 </div>
-<div class="flex gap-3">
-    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -278,9 +284,10 @@
     <h1 class="text-2xl font-bold">16445</h1>
     <button class="btn text-gray-400 rounded-2xl">NGO.</button>
 </div>
-<div class="flex gap-3">
-     <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600 w-[180px] hover:bg-green-400 h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
@@ -302,9 +309,10 @@
     <h1 class="text-2xl font-bold">163</h1>
     <button class="btn text-gray-400 rounded-2xl">Travel</button>
 </div>
-<div class="flex gap-3">
-    <button class="btn text-gray-700 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
-    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-[180px] h-[40px] rounded-xl btn-wide"><i class="fa-solid fa-phone"></i> Call</button>
+
+<div class="flex flex-col sm:flex-row gap-3">
+    <button class="btn text-gray-700 w-full sm:w-[180px] rounded-xl btn-wide"><i class="fa-regular fa-copy"></i> Copy </button>
+    <button class="btn btn-call-action text-cyan-50 bg-green-600 hover:bg-green-400 w-full sm:w-[180px] h-[40px] rounded-xl btn-wide" data-alert="National Emergency"><i class="fa-solid fa-phone"></i> Call</button>
 </div>
 
         </div>
