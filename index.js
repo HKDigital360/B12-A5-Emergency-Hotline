@@ -88,6 +88,47 @@ const total = availableRedHeartNum + 1
 
 })
 
+document.getElementById("btn-electricity-blank-heart").addEventListener("click" , function(e){
+    e.preventDefault()
+
+
+
+const availableRedHeartNum = parseInt(document.getElementById("red-heart-number").innerText)
+
+const total = availableRedHeartNum + 1
+
+ document.getElementById("red-heart-number").innerText = total
+
+})
+
+
+
+document.getElementById("btn-brac-blank-heart").addEventListener("click" , function(e){
+    e.preventDefault()
+
+
+
+const availableRedHeartNum = parseInt(document.getElementById("red-heart-number").innerText)
+
+const total = availableRedHeartNum + 1
+
+ document.getElementById("red-heart-number").innerText = total
+
+})
+
+
+document.getElementById("btn-rail-blank-heart").addEventListener("click" , function(e){
+    e.preventDefault()
+
+
+
+const availableRedHeartNum = parseInt(document.getElementById("red-heart-number").innerText)
+
+const total = availableRedHeartNum + 1
+
+ document.getElementById("red-heart-number").innerText = total
+
+})
 // save transaction data
 const transactionHistory = []
 
